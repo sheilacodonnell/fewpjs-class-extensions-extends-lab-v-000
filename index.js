@@ -24,10 +24,14 @@ class Triangle extends Polygon {
 }
 
 class Square extends Polygon {
-  get isValid() {
-    this.sides.every(function (e) {
-    return this.sides[0] === e;
-    }
-  )}
+  
+  get area() {
+    this.sides[0] * this.sides[0]
+  }
+  // get isValid() {
+  //   this.sides.every(function (e) {
+  //   return this.sides[0] === e;
+  //   }
+  // )}
 }
 
