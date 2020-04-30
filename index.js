@@ -15,10 +15,10 @@ class Polygon {
 class Triangle extends Polygon {
   
     get isValid() {
-    if (this.sides.length === 3) {
-      return true
-    }
-    else
-      return false
-    }
+      if (this.sides.length === 3) {
+        return true
+      }
+      else
+        return false
+      }
 }
