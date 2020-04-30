@@ -13,9 +13,9 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
-    let a = this.sides[0]
-    let b = this.sides[1]
-    let c = this.sides[2]
+    let a = this.sides[0];
+    let b = this.sides[1];
+    let c = this.sides[2];
     
     get isValid() {
       if (this.countSides === 3 && (a + b <= c || a + c <= b || b + c <= a) ) {
