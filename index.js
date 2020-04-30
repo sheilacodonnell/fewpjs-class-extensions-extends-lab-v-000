@@ -13,11 +13,12 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
-  isValid() {
+  
+    isValid() {
     if (this.countSides() === 3) {
       return true
     }
     else
       return false
-  }
+    }
 }
