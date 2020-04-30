@@ -30,8 +30,9 @@ class Square extends Polygon {
   }
   
   get isValid() {
-    let result = this.sides.every(function (e) {
-    return this.sides[0] === e;
+    let squareSides = this.sides
+    let result = squareSides.every(function (e) {
+    return squareSides[0] === e;
     }
   )
     return result
