@@ -33,6 +33,8 @@ class Square extends Polygon {
     let result = this.sides.every(function (e) {
     return this.sides[0] === e;
     }
-  )}
+  )
+    return result
+  }
 }
 
