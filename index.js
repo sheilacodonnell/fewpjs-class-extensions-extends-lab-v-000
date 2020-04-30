@@ -16,7 +16,7 @@ class Triangle extends Polygon {
   
   
     get isValid() {
-    if (this.countSides() === 3) {
+    if (countSides() === 3) {
       return true
     }
     else
