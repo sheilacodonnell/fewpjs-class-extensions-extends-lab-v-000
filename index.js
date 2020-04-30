@@ -26,7 +26,7 @@ class Triangle extends Polygon {
 class Square extends Polygon {
   
   get area() {
-    this.sides[0] * this.sides[0]
+    return this.sides[0] * this.sides[0]
   }
   // get isValid() {
   //   this.sides.every(function (e) {
