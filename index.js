@@ -28,10 +28,11 @@ class Square extends Polygon {
   get area() {
     return this.sides[0] * this.sides[0]
   }
-  // get isValid() {
-  //   this.sides.every(function (e) {
-  //   return this.sides[0] === e;
-  //   }
-  // )}
+  
+  get isValid() {
+    this.sides.every(function (e) {
+    return this.sides[0] === e;
+    }
+  )}
 }
 
