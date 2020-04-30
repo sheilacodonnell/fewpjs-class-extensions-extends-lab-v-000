@@ -3,8 +3,8 @@ class Polygon {
     this.sides = sides;
   }
  
-  get area() {
-    return this.sideLength * this.sideLength;
+  get countSides() {
+    return this.sides.length;
   }
  
 }
